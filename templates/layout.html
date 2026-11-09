@@ -1,0 +1,30 @@
+{{define "header"}}{{$cur := ""}}{{with .Chapter}}{{$cur = .Slug}}{{end}}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{if .Chapter}}{{.Title}} · {{end}}Online Card Payments</title>
+<link rel="stylesheet" href="{{.Base}}/static/style.css">
+</head>
+<body>
+<aside>
+<a class="site{{if not .Chapter}} current{{end}}" href="{{.Base}}/">Online Card Payments</a>
+<nav>
+<ol>
+{{range .Chapters}}<li{{if eq .Slug $cur}} class="current"{{end}}>
+<a href="{{$.Base}}/{{.Slug}}"><span class="num">{{printf "%02d" .Number}}</span>{{.Title}}</a>
+{{if eq .Slug $cur}}<ul>
+{{range .Sections}}<li><a href="#{{.ID}}">{{.Title}}</a></li>
+{{end}}</ul>{{end}}
+</li>
+{{end}}</ol>
+</nav>
+</aside>
+<main>
+{{end}}
+
+{{define "footer"}}
+</main>
+</body>
+</html>
+{{end}}
