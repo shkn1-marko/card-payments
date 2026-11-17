@@ -1,6 +1,6 @@
 # 2. The Players
 
-Most card payments rely on a chain of companies. In the middle, a card network, most often Visa or Mastercard, connects the issuer, which gives the customer the card, with the acquirer, which accepts payments for the merchant. Around them, processors and gateways carry out the technical work, payment facilitators bring small businesses into the system, and digital wallets let customers pay without typing their card details. The roles are divided for reasons of reach, risk and cost. The card networks hold the most power, while merchants have more choice among the companies below them. Every payment carries a fee, paid by the merchant and shared among the players. In Croatia, most players are owned by foreign groups.
+Most card payments rely on a chain of companies. A card network, most often Visa or Mastercard, connects the issuer, which gives the customer the card, with the acquirer, which accepts payments for the merchant. Processors and gateways carry out the technical work, payment facilitators bring small businesses into the system, and digital wallets let customers pay without typing their card details. The roles are divided for reasons of reach, risk and cost. The card networks hold the most power, while merchants have more choice among the companies below them. Every payment carries a fee, paid by the merchant and shared among the players. In Croatia, most players are owned by foreign groups.
 
 ## The Four-Party Model
 
