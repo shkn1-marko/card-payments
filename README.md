@@ -11,3 +11,17 @@
 - Securing the Payment (2000s)
 - Easy to Accept, Easy to Pay (2010s)
 - Paying Without Cards (2020s)
+
+### 2. The Players
+
+- The Four-Party Model
+- Issuing Banks
+- Card Networks
+- Acquiring Banks
+- Processors and Gateways
+- Payment Facilitators
+- Digital Wallets
+- Division of Roles
+- Market Power
+- Fees
+- Croatia
