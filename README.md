@@ -25,3 +25,13 @@
 - Market Power
 - Fees
 - Croatia
+
+### 3. The Payment
+
+- Checkout
+- Authentication
+- Authorization
+- Capture
+- Clearing and Settlement
+- Payout
+- Refunds and Disputes
